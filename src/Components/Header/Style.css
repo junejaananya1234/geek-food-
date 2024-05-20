@@ -1,0 +1,49 @@
+.header{
+    padding:20px 40px;
+}
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.starting{
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+    align-items: center;
+    font-weight: 600;
+    
+}
+.list li:hover{
+    color:blue;
+}
+.middle{
+    display: flex;
+    
+}
+.ending{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    padding:5px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: darkblue;
+}
+
+
